@@ -103,3 +103,17 @@ button:hover {
     align-items: center;
     justify-content: space-between;
 }
+
+.main-img {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.main-img img {
+    padding: 21%;
+    height: 90%;
+}

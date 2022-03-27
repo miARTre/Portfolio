@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,16 +27,27 @@
         </nav>
 
         <div class="main-text">
-                <h1>I'm a <br> <span>Web designer</span></h1>
+                <h1>I'm a <br> <span class="input"></span></h1>
                 <p>Also art lover and travel addict.</p>
                 <button type="button">about me<img src="img/arrow.png"></button>
         </div>
 
         <div class="main-img">
-            img
-
+            <img src="img/main.png" alt="main-img">
+            
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed (".input" , {
+            strings: ["Web designer", "developer", "freelancer"],
+            typeSpeed: 120,
+            backSpeed: 110,
+            loop: true
+        })
+    </script>
     
 </body>
 </html>
